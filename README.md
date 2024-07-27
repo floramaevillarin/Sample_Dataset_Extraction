@@ -7,18 +7,18 @@ To extract a sample from the dataset, you can run the following command in the t
 
 Sample Output:
 > $ python main.py 10
-> Credentials loaded successfully
-> Connected to Azure Blob Storage successfully
-> big_data.csv already exists.
-> big_rating.csv already exists.
-> Files merged successfully. Shape: (1000, 10)
-> Sample of 10 rows obtained successfully.
-> Sample Dataset saved to sample_dataset_10_20240726_095929.csv
-> 0.01s - Debugger warning: It seems that frozen modules are being used, which may
-> ....
-> Notebook  executed successfully.
-> Preprocessing notebook executed successfully. Now running feature extraction notebook...
-> ...
-> Notebook feature-extraction.ipynb executed successfully.
-> Feature extraction notebook executed successfully.
-> Connection to Azure Blob Storage closed...
+Credentials loaded successfully <br/>
+Connected to Azure Blob Storage successfully
+big_data.csv already exists.
+big_rating.csv already exists.
+Files merged successfully. Shape: (1000, 10)
+Sample of 10 rows obtained successfully.
+Sample Dataset saved to sample_dataset_10_20240726_095929.csv
+0.01s - Debugger warning: It seems that frozen modules are being used, which may
+....
+Notebook  executed successfully.
+Preprocessing notebook executed successfully. Now running feature extraction notebook...
+...
+Notebook feature-extraction.ipynb executed successfully.
+Feature extraction notebook executed successfully.
+Connection to Azure Blob Storage closed...
