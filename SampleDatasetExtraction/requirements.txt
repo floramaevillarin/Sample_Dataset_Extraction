@@ -1,7 +1,0 @@
-pandas
-pymongo
-azure-storage-blob
-
-azure-storage-blob
-jupyter
-nbclient
